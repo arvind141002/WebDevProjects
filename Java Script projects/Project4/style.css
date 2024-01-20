@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+.img-container{
+    width: 60%;
+    height: 80vh;
+    background: url("img/1.jpg") center/cover fixed no-repeat;
+    border: 0.5rem solid #fff700;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+    border-radius: 15px;
+}
+
+.btn-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-color: #3b117e;
+    color: #ffff;
+    transform: translate(-50%, -50%);
+    border: 0.2rem solid #3cbffb;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer ;
+}
+
+.btn-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: #3b117e;
+    color: #ffff;
+    transform: translate(+50%, -50%);
+    border: 0.2rem solid #3cbffb;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer ;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <style>
+        p{
+            font-family: Roboto, Arial;
+        }
+        .tile-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 30px;
+        }
+
+        .tile{
+            border-radius: 3px;
+            box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+        }
+
+        .tile-title{
+            font-weight: bold;
+            margin-left: 15px;
+            margin-bottom: 5px;
+        }
+
+        .logo{
+            width: 100%;
+        }
+
+        .logo-in{
+            width: 90%;
+            border-radius: 50%;
+        }
+
+        .logo-desc{
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            margin-left: 15px;
+            align-items: center;
+        }
+
+        .frnd-btn{
+            height: 35px;
+            width: 100px;
+            background-color: rgb(73, 73, 237);
+            border-radius: 5px;
+            color: white;
+            margin-bottom: 15px;
+            margin-left: 15px;
+        }  
+        
+        .frnds{
+            margin-bottom: 15px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="tile-grid">
+        <div class="tile">
+            <div class="tile-img">
+                <img class="logo" src="channels/channel-1.jpeg" alt="">
+            </div>
+            <div>
+                <p class="tile-title">Oliver</p>
+            </div>
+            <div class="logo-desc">
+                <img class="logo-in" src="channels/channel-1.jpeg" alt="">
+                <p class="frnds">2 mutual friends</p>
+            </div>
+            <div>
+                <button class="frnd-btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="tile">
+            <div class="tile-img">
+                <img class="logo" src="channels/channel-2.jpeg" alt="">
+            </div>
+            <div>
+                <p class="tile-title">Oliver</p>
+            </div>
+            <div class="logo-desc">
+                <img class="logo-in" src="channels/channel-2.jpeg" alt="">
+                <p class="frnds">3 mutual friends</p>
+            </div>
+            <div>
+                <button class="frnd-btn">Add Friend</button>
+            </div>
+        </div>
+        <div class="tile">
+            <div class="tile-img">
+                <img class="logo" src="channels/channel-3.jpeg" alt="">
+            </div>
+            <div>
+                <p class="tile-title">Oliver</p>
+            </div>
+            <div class="logo-desc">
+                <img class="logo-in" src="channels/channel-3.jpeg" alt="">
+                <p class="frnds">4 mutual friends</p>
+            </div>
+            <div>
+                <button class="frnd-btn">Add Friend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

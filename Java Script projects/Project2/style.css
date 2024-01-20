@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, html{
+    background-color: aquamarine;
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.form-container{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgbs(0,0,0,0.2);
+}
+
+.message-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+form input{
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #6665ee;
+}
+
+form input.box{
+    height: 40px;
+    width: 500px;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+form input.button{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(86, 86, 232);
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+h5{
+    background-color: rgb(232, 124, 124);
+    font-size: 1.2rem;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.feedback{
+    display: none;
+}
+
+.message-content{
+    color: rgb(111, 157, 42);
+}
+
+.show{
+    display: block;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" placeholder="Search" type="text">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-holder">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="app-holder">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notify-holder">
+                <img class="notifications-icon" src="icons/notifications.svg" alt="">
+                <div class="notify">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="channel-icon" src="channels/my-channel.jpeg" alt="">
+        </div>
+    </header>
+    <div class="sidebar">
+        <div class="sidebar-icons-container">
+            <img src="icons/home.svg" alt="">
+            <div class="sidebar-icons-desc">Home</div>
+        </div>
+        <div class="sidebar-icons-container">
+            <img src="icons/explore.svg" alt="">
+            <div class="sidebar-icons-desc">Explore</div>
+        </div>
+        <div class="sidebar-icons-container">
+            <img src="icons/subscriptions.svg" alt="">
+            <div class="sidebar-icons-desc">Subscriptions</div>
+        </div>
+        <div class="sidebar-icons-container">
+            <img src="icons/originals.svg" alt="">
+            <div class="sidebar-icons-desc">Originals</div>
+        </div>
+        <div class="sidebar-icons-container">
+            <img src="icons/youtube-music.svg" alt="">
+            <div class="sidebar-icons-desc">YouTube Music</div>
+        </div>
+        <div class="sidebar-icons-container">
+            <img src="icons/library.svg" alt="">
+            <div class="sidebar-icons-desc">Library</div>
+        </div>
+    </div>
+    <div class="video-grid">
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="">
+                <div class="timer">
+                    14:20
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-1.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="vid-author">Marques Brownlee</p>
+                    <p class="vid-stats">3.4M views &CenterDot; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="">
+                <div class="timer">
+                    8:22
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-2.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">Try Not To Laugh Challenge #9</p>
+                    <p class="vid-author">Markiplier</p>
+                    <p class="vid-stats">19M views &CenterDot; 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="">
+                <div class="timer">
+                    9:13
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-3.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                    <p class="vid-author">SSSniperWolf</p>
+                    <p class="vid-stats">12M views &CenterDot; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="">
+                <div class="timer">
+                    22:09
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-4.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+                    <p class="vid-author">Veritasium</p>
+                    <p class="vid-stats">18M views &CenterDot; 4 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="">
+                <div class="timer">
+                    11:17
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-5.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+                    <p class="vid-author">CS Dojo</p>
+                    <p class="vid-stats">519K views &CenterDot; 5 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="">
+                <div class="timer">
+                    19:59
+                </div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-logo">
+                    <img class="profile-pic" src="channels/channel-6.jpeg" alt="">
+                </div>
+                <div class="vid-description">
+                    <p class="vid-title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                    <p class="vid-author">MrBeast</p>
+                    <p class="vid-stats">141M views &CenterDot; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
